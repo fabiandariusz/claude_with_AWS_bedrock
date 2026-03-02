@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "75",
+      "goal": "Optimize nutrition for high-intensity triathlon training and recovery",
+      "restrictions": "Dairy-free, no red meat"
+    },
+    "solution_criteria": [
+      "Provide 3500-4000 daily calories",
+      "Include minimum 150g protein for muscle recovery",
+      "Balance macronutrients for endurance performance",
+      "Accommodate dairy-free and no red meat restrictions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test meal plan for an endurance triathlete with high calorie and protein requirements during intense training season"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "82",
+      "goal": "muscle building and strength development",
+      "restrictions": "vegan diet, no soy allergies"
+    },
+    "solution_criteria": [
+      "Provide a balanced meal plan meeting 2500-3000 daily calories",
+      "Include sufficient plant-based protein sources for muscle recovery",
+      "Ensure macronutrient balance supports strength training goals",
+      "Incorporate diverse nutrient-dense vegan foods"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test meal plan for a vegan strength athlete with specific macro and micronutrient balance needs"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "82",
+      "goal": "muscle maintenance and energy optimization for collegiate swimming",
+      "restrictions": "budget-constrained, minimal cooking equipment, limited time"
+    },
+    "solution_criteria": [
+      "Provide 3-4 balanced meals within $15-20 daily budget",
+      "Ensure meals require minimal cooking equipment and preparation time",
+      "Meet basic macronutrient needs for athlete's weight and training requirements",
+      "Include protein sources that are cost-effective and easy to prepare"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test meal plan for a budget-conscious collegiate athlete with limited cooking time and minimal kitchen equipment"
+  }
+]

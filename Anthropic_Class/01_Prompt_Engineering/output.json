@@ -1,0 +1,65 @@
+[
+  {
+    "output": "I'll generate a meal plan based on the athlete's specifications:\n\n*   **Calorie Target:** Approximately 3200 calories (high-intensity triathlon training)\n*   **Macronutrient Breakdown:** Protein (180g), Fat (95g), Carbs (430g)\n\n**Meal Plan:**\n\n*   **Breakfast (6:30 AM):** Chia seed and coconut milk oatmeal\n    - Rolled oats (100g)\n    - Chia seeds (20g)\n    - Coconut milk (250ml)\n    - Banana (150g)\n    - Almond butter (25g)\n        *   Protein: 25g, Fat: 22g, Carbs: 85g\n\n*   **Pre-Training Snack (9:00 AM):** Vegan protein smoothie\n    - Plant-based protein powder (30g)\n    - Frozen berries (100g)\n    - Spinach (50g)\n    - Coconut water (250ml)\n        *   Protein: 25g, Fat: 5g, Carbs: 35g\n\n*   **Post-Training Lunch (12:30 PM):** Chicken and quinoa power bowl\n    - Grilled chicken breast (150g)\n    - Quinoa (100g dry weight)\n    - Mixed vegetables (200g)\n    - Olive oil dressing (20g)\n        *   Protein: 45g, Fat: 20g, Carbs: 90g\n\n*   **Afternoon Snack (3:30 PM):** Energy-boosting mix\n    - Turkey slices (50g)\n    - Sweet potato (150g)\n    - Pumpkin seeds (20g)\n        *   Protein: 20g, Fat: 15g, Carbs: 40g\n\n*   **Dinner (7:00 PM):** Salmon with sweet potato and greens\n    - Baked salmon (170g)\n    - Roasted sweet potato (200g)\n    - Steamed kale (150g)\n    - Avocado (50g)\n        *   Protein: 40g, Fat: 25g, Carbs: 120g\n\n*   **Evening Recovery Snack (9:30 PM):** Protein-rich recovery blend\n    - Vegan protein shake (30g)\n    - Almond milk (250ml)\n    - Handful of mixed nuts (30g)\n        *   Protein: 25g, Fat: 8g, Carbs: 60g\n\n**Key Nutritional Considerations:**\n- Dairy-free alternatives used throughout\n- No red meat\n- High protein for muscle recovery\n- Balanced carbohydrates for energy\n- Healthy fats for hormone production and joint health\n\n**Hydration Note:** \nRecommended water intake: Minimum 3-4 liters per day, adjusting for training intensity and climate.\n\nThis meal plan is designed to support high-intensity triathlon training while meeting the athlete's specific dietary restrictions, providing balanced nutrition for optimal performance and recovery.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "75",
+        "goal": "Optimize nutrition for high-intensity triathlon training and recovery",
+        "restrictions": "Dairy-free, no red meat"
+      },
+      "solution_criteria": [
+        "Provide 3500-4000 daily calories",
+        "Include minimum 150g protein for muscle recovery",
+        "Balance macronutrients for endurance performance",
+        "Accommodate dairy-free and no red meat restrictions"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test meal plan for an endurance triathlete with high calorie and protein requirements during intense training season"
+    },
+    "score": 8,
+    "reasoning": "The solution provides a well-structured meal plan that addresses most criteria. It accommodates dietary restrictions, offers balanced nutrition, and includes precise meal timing. Minor deficiencies exist in total caloric intake and protein quantity, but these are marginal and do not fundamentally compromise the plan's effectiveness."
+  },
+  {
+    "output": "I'll generate a one-day meal plan for the vegan athlete focusing on muscle building and strength development:\n\n**Calorie Target:** Approximately 3200 calories\n**Macronutrient Breakdown:** Protein (180g), Fat (90g), Carbs (420g)\n\n**Meal Plan:**\n\n*   **Breakfast (7:00 AM):** Protein-packed vegan smoothie\n    - Rolled oats (100g)\n    - Vegan protein powder (plant-based, 40g)\n    - Banana (120g)\n    - Almond butter (30g)\n    - Spinach (50g)\n    - Almond milk (250ml)\n    *   Protein: 35g, Fat: 22g, Carbs: 85g\n\n*   **Mid-Morning Snack (10:00 AM):** \n    - Chickpea energy balls (2 x 50g)\n    - Mixed nuts (30g)\n    *   Protein: 15g, Fat: 18g, Carbs: 40g\n\n*   **Lunch (1:00 PM):** Quinoa and lentil power bowl\n    - Quinoa (100g cooked)\n    - Lentils (150g)\n    - Roasted vegetables (mixed, 200g)\n    - Avocado (80g)\n    - Nutritional yeast (15g)\n    *   Protein: 40g, Fat: 25g, Carbs: 90g\n\n*   **Post-Workout Snack (4:00 PM):**\n    - Vegan protein shake (40g protein powder)\n    - Dates (50g)\n    - Chia seeds (20g)\n    *   Protein: 45g, Fat: 15g, Carbs: 60g\n\n*   **Dinner (7:00 PM):** Black bean and seitan protein plate\n    - Seitan (150g)\n    - Black beans (200g)\n    - Sweet potato (150g)\n    - Roasted broccoli (200g)\n    - Olive oil dressing (20g)\n    *   Protein: 45g, Fat: 20g, Carbs: 120g\n\n*   **Evening Snack (9:00 PM):**\n    - Hemp seed and almond energy bars (2 x 40g)\n    *   Protein: 20g, Fat: 10g, Carbs: 25g\n\n**Nutritional Considerations:**\n- 100% plant-based protein sources\n- No soy products (as per allergy restriction)\n- High protein intake for muscle building\n- Complex carbohydrates for energy\n- Healthy fats for hormone production\n\n**Supplementation Recommendation:**\n- Vegan vitamin B12\n- Vegan omega-3 supplement\n- Vitamin D\n- Zinc\n- Iron\n\n**Budget-Friendly Tips:**\n- Buy beans and lentils in bulk\n- Use frozen vegetables\n- Purchase nuts and seeds in larger quantities\n- Look for sales on plant-based proteins\n\nThis meal plan is designed to support muscle building while adhering to vegan dietary restrictions, providing balanced nutrition and sufficient protein for strength development.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "82",
+        "goal": "muscle building and strength development",
+        "restrictions": "vegan diet, no soy allergies"
+      },
+      "solution_criteria": [
+        "Provide a balanced meal plan meeting 2500-3000 daily calories",
+        "Include sufficient plant-based protein sources for muscle recovery",
+        "Ensure macronutrient balance supports strength training goals",
+        "Incorporate diverse nutrient-dense vegan foods"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test meal plan for a vegan strength athlete with specific macro and micronutrient balance needs"
+    },
+    "score": 8,
+    "reasoning": "The solution meets all mandatory requirements with a well-structured, nutritionally comprehensive vegan meal plan. It provides exact foods, portions, timing, caloric total, and macronutrient breakdown. While slightly overshooting the calorie range, the plan effectively supports muscle building and strength development goals for a vegan athlete."
+  },
+  {
+    "output": "Based on the athlete's information for a collegiate swimmer focused on muscle maintenance and energy optimization, here's a tailored meal plan:\n\n**Calorie Target:** Approximately 3,200 calories\n**Macronutrient Breakdown:** Protein (180g), Fat (95g), Carbs (420g)\n\n**Meal Plan:**\n\n**Breakfast (6:30 AM):** Quick Protein-Packed Breakfast\n- Instant oatmeal (100g)\n- Protein powder mixed with water (30g)\n- Frozen mixed berries (100g)\n- Peanut butter (20g)\n    - Protein: 35g, Fat: 22g, Carbs: 75g\n\n**Mid-Morning Snack (9:30 AM):** Portable Energy Boost\n- Banana (150g)\n- Protein bar (60g)\n- Almonds (30g)\n    - Protein: 25g, Fat: 18g, Carbs: 50g\n\n**Lunch (12:30 PM):** No-Cook Protein Meal\n- Canned tuna (120g)\n- Pre-packaged mixed salad (200g)\n- Olive oil dressing (15g)\n- Whole wheat tortilla (60g)\n    - Protein: 40g, Fat: 20g, Carbs: 65g\n\n**Post-Workout Snack (3:30 PM):** Recovery Nutrition\n- Greek yogurt (200g)\n- Protein powder (30g)\n- Honey (15g)\n    - Protein: 35g, Fat: 10g, Carbs: 60g\n\n**Dinner (6:30 PM):** Easy Protein and Carb Meal\n- Rotisserie chicken (150g)\n- Instant brown rice (100g)\n- Frozen mixed vegetables (200g)\n    - Protein: 40g, Fat: 20g, Carbs: 120g\n\n**Evening Snack (9:00 PM):** Before Bed Nutrition\n- Cottage cheese (150g)\n- Chia seeds (15g)\n- Apple (150g)\n    - Protein: 25g, Fat: 5g, Carbs: 40g\n\n**Meal Plan Considerations:**\n- Budget-friendly options prioritized\n- Minimal cooking required\n- Quick preparation times\n- High-energy, protein-rich foods\n- Meets calorie and macronutrient needs for a collegiate swimmer\n\n**Hydration Note:** \nAim for 3-4 liters of water throughout the day, especially around training sessions.\n\nThis meal plan addresses the athlete's specific constraints of budget, limited cooking equipment, and time restrictions while providing optimal nutrition for swimming performance and muscle maintenance.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "82",
+        "goal": "muscle maintenance and energy optimization for collegiate swimming",
+        "restrictions": "budget-constrained, minimal cooking equipment, limited time"
+      },
+      "solution_criteria": [
+        "Provide 3-4 balanced meals within $15-20 daily budget",
+        "Ensure meals require minimal cooking equipment and preparation time",
+        "Meet basic macronutrient needs for athlete's weight and training requirements",
+        "Include protein sources that are cost-effective and easy to prepare"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test meal plan for a budget-conscious collegiate athlete with limited cooking time and minimal kitchen equipment"
+    },
+    "score": 8,
+    "reasoning": "The solution successfully addresses all mandatory requirements by providing a detailed meal plan with precise caloric intake (3,200 calories), clear macronutrient breakdown, specific foods, portion sizes, and meal timing. The plan accommodates the athlete's constraints of budget, limited cooking equipment, and time restrictions. While meeting core criteria, there are minor nutritional optimization opportunities."
+  }
+]

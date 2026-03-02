@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration for an AWS Lambda function that defines a basic Python runtime environment with memory and timeout settings",
+    "format": "json",
+    "solution_criteria": "Must include runtime, memory size, timeout, and handler configurations. Configuration should be valid AWS Lambda function configuration."
+  },
+  {
+    "task": "Write a Python function to generate a unique AWS S3 bucket name based on a prefix and current timestamp",
+    "format": "python",
+    "solution_criteria": "Function must return a globally unique string, include timestamp or random component, be valid S3 bucket naming rules (lowercase, no spaces)"
+  },
+  {
+    "task": "Create a regular expression to validate an AWS IAM user name, which must be 1-64 characters, start with a letter, and can contain letters, numbers, and specific symbols",
+    "format": "regex",
+    "solution_criteria": "Regex must enforce length between 1-64 characters, start with letter, allow letters/numbers/specific symbols like +=-,.@_"
+  }
+]
